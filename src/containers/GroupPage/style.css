@@ -1,0 +1,203 @@
+.createGroupPopup {
+    text-align: center;
+}
+
+.createGroupPopup button {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: ease .2s;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.createGroupPopup button:focus {
+    outline: none;
+}
+
+.createGroupPopup button img {
+    width: 30px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.modal {
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    width: 50vw;
+    height: 70vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+    margin: 7vw auto 0;
+    padding: 4vh 4vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.modal-content h3 {
+    margin-bottom: 5px;
+}
+
+.groupMembers {
+    margin-bottom: 15px;
+}
+.groupMembers p {
+    display: inline-block;
+    font-size: 12px;
+}
+.groupMembers .memberlist {
+    font-style: italic;
+}
+
+.createGroup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.createGroup form {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    position: relative;
+}
+.createGroup form button {
+    padding: 0 20px;
+    background-color: #35747A;
+    color: white;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0;
+}
+
+.createGroup form button img {
+    margin-right: 5px;
+}
+
+.createGroup form input {
+    background-color: #F3F3F3;
+    font-weight: bold;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 15px 0 15px 15px;
+    width: -webkit-fill-available;
+}
+
+.createGroup form input[type="text"]{
+    color: #636363;
+    font-weight: 600;
+    font-size: 16px;
+}
+.createGroup form input:focus {
+    border: none;
+    outline: none;
+}
+
+.createGroup form input::placeholder{
+    font-size: 16px;
+    font-weight: bold;
+    color: #63636363;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;    
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content .user p {
+    text-align: left;
+}
+
+div.modal-content .usersContainer {
+    width: 100%;
+}
+
+div.modal-content .usersContainer .user {
+    place-items: center;
+}
+
+.chatGroupMembers {
+    display: flex;
+    flex-direction: row;
+}
+
+.groupchatHeader p {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.chatGroupMembers > div {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+.chatGroupMembers span {
+    color: var(--dark-gray);
+}
+
+.userImage {
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-right: 5px;
+}
+
+p.messageFrom {
+    text-align: start;
+    background-color: transparent;
+    background-image: none;
+    font-size: 11px;
+    background-image: none;
+    color: var(--dark-blue);
+    padding: 0 0 6px 5px;
+}
+
+
+.rightMessage p.messageFrom {
+    text-align: right;
+}

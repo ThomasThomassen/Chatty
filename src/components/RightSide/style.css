@@ -1,0 +1,24 @@
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkToRegisterLogin {
+    color: var(--dark-blue);
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.linkToRegisterLogin a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
+.rightSectionLoggedIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

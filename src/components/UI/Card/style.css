@@ -1,0 +1,41 @@
+.card {
+    background-image: linear-gradient(to bottom right, #78EBDA, #61C6D4);
+    width: 25vw;
+    min-height: 15vw;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px 1px #ccc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 70%;
+}
+
+.card form label {
+    color: white;
+    font-size: 20px;
+}
+
+.card form input {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.card form input:focus-within {
+    outline: none;
+    border-color: white;
+}
+
+.card form button:hover {
+    background-color: white;
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="454" height="454" viewBox="0 0 454 454">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.056" x2="0" y2="0.953" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#78ebda"/>
+      <stop offset="1" stop-color="#61c6d4"/>
+    </linearGradient>
+  </defs>
+  <g id="Logo" transform="translate(-253 -313)">
+    <circle id="Circle" cx="227" cy="227" r="227" transform="translate(253 313)" fill="#fff"/>
+    <path id="Icon" d="M323.753,3H38.639C19.038,3,3,14.3,3,28.1V254.037L74.278,203.83H323.753c19.6,0,35.639-11.3,35.639-25.1V28.1C359.392,14.3,343.354,3,323.753,3Z" transform="translate(298.923 411)" fill="url(#linear-gradient)"/>
+    <text id="Chatty" transform="translate(343 548)" fill="#fff" font-size="88" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Chatty</tspan></text>
+  </g>
+</svg>
